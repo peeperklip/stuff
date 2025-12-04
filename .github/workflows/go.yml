@@ -24,11 +24,7 @@ jobs:
       run: go work sync
 
     - name: Build all modules
-      run: |
-        for dir in ./retry ./roundtrip; do
-          go build -v "$dir/..."
-        done
+      run: go build -v ./retry/... ./roundtrip/...
 
     - name: Test all modules
-      run: go test -v ./...
-      working-directory: .
+      run: go test -v ./retry/... ./roundtrip/...
