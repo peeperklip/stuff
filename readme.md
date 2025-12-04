@@ -1,2 +1,2 @@
 # Stuff
-My collection of tryouts, experients, hersenspinsels and other _stuff_
+My collection of tryouts, experiments, hersenspinsels and other _stuff_
